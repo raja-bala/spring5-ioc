@@ -16,7 +16,7 @@ The two packages basis for the Spring Framework IoC container are
 The bean factory provides an advanced configuration mechanism capable for managing any type of object. 
 
 # What is ApplicationContext interface?
-  - ApplicationContext is a sub-interface of BeanFactory  
+  - **ApplicationContext** is a sub-interface of **BeanFactory**  
   - **BeanFactory** provides the configuration framework and basic functionality, and the **ApplicationContext** adds more enterprise-specific functionality. 
   - (**ApplicationContext**) It adds the followings:
     - Easier integration with Spring’s AOP features
@@ -24,5 +24,17 @@ The bean factory provides an advanced configuration mechanism capable for managi
     - Event publication
     - Application-layer specific contexts such as the **WebApplicationContext** for use in web applications.
 
-#
+# What is Configuration metadata?
+Instructions provided to the Spring IOC container, on what objects to instantiate, configure, and assemble
+
+# What are the three ways Configuration metadata can be represented?
+  - XML
+  - Java annotations
+  - Java code
+
+# List some of the implementations available in spring for ApplicationContext interface?
+  - ClassPathXmlApplicationContext
+  - FilePathXmlApplicationContext
+  - 
+
   
