@@ -34,7 +34,7 @@ Instructions provided to the Spring IOC container, on what objects to instantiat
 
 # List some of the implementations available in spring for ApplicationContext interface?
   - ClassPathXmlApplicationContext
-  - FilePathXmlApplicationContext
+  - FileSystemXmlApplicationContext
   - 
 
   
